@@ -1,0 +1,32 @@
+{
+  "name": "devhub",
+  "version": "1.0.0",
+  "description": "A network of developer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon -e server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puneetbagewadi/DevHub.git"
+  },
+  "author": "Puneet Bagewadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/puneetbagewadi/DevHub/issues"
+  },
+  "homepage": "https://github.com/puneetbagewadi/DevHub#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.0.2",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.3",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.0"
+  }
+}
