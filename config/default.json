@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://devBaagi:devBaagi123@devhubcluster-tuvtq.mongodb.net/test?retryWrites=true&w=majority"
+}
